@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#facebook{
+    padding-right: 150px;
+}
+
+#facebook h1{
+    font-size: 60px;
+    color: #0081C9;
+    font-weight: 600;
+}
+
+#facebook p{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+body{
+    background: #F0F0F0;
+}
+
+#mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 250px;
+}
+
+#form{
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    background: white;
+}
+#form .we{
+    margin-top: 30px;
+}
+
+#form input[type=text]{
+    padding-left: 10px;
+}
+
+#form input{
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: 45px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#form button{
+    width: 250px;
+    background: #0081C9;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+#form p{
+    color:#0081C9 ;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#form #create{
+    background: #5D9C59;
+    margin-bottom: 20px;
+}
